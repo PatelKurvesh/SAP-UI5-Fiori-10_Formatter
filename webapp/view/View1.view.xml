@@ -19,7 +19,7 @@
 								<Label text="Student Name"></Label>
 								<table:template>
 									<Text text="{path : 'sName', formatter:'.formatter.mackItUpperCase'}"></Text>   
-									<!--"{path: 'item address', formatter:'.objname.functionname'}"-->
+									<!--"{path: 'item address', formatter:'.objname.functionname'}"  formatter: is a key word-->
 								</table:template>
 							</table:Column>
 							
