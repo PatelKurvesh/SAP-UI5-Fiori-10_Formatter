@@ -33,7 +33,8 @@
 							<table:Column>
 								<Label text="CGPA"></Label>
 								<table:template>
-									<Input value="{sCGPA}"></Input>
+									<Input value="{parts:[{path:'sCGPA'}, {path:'smrk'}],formatter:'.formatter.total'}"></Input>
+									<!--"{parts:[{path:'cColor'},{path:'Other'}],formatter: '.formatter.formatclr'}"-->
 								</table:template>
 							</table:Column>
 							
